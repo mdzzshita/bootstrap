@@ -1,10 +1,10 @@
 
 // 使用json变量存储数据(后续可以从服务器端获得)
 var productsJson = {
-    "productList": [{ "id": "01", "title": "30片巨补水 秋冬新款面膜", "imgSrc": "01.jpg", "price": 99.50 },
-    { "id": "02", "title": "新西兰进口白金版婴幼儿奶粉", "imgSrc": "02.jpg", "price": 80.50 },
-    { "id": "03", "title": "卡耐基经典 人性的弱点", "imgSrc": "03.jpg", "price": 50.00 },
-    { "id": "04", "title": "海淘耳机", "imgSrc": "04.jpg", "price": 33.50 }
+    "productList": [{ "id": "01", "title": "30片巨补水 秋冬新款面膜", "imgSrc": "01.jpg", "price": 99.99 },
+    { "id": "02", "title": "新西兰进口白金版婴幼儿奶粉", "imgSrc": "02.jpg", "price": 88.88 },
+    { "id": "03", "title": "卡耐基经典 人性的弱点", "imgSrc": "03.jpg", "price": 29.99 },
+    { "id": "04", "title": "海淘耳机", "imgSrc": "04.jpg", "price": 49.99 }
     ]
 }
 

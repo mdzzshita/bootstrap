@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="shoppingCart.js"></script>
+    <script>
+        // var p=new Product("1","1","1",1);
+        // // 订单
+        // var order=new Order(p,2,true);
+        // // 购物车数据
+        // var cartData=new CartData();
+        // cartData.orderList.push(order);
+        // cartData.totalQty=order.qty;
+        // cartData.totalAmount=order.qty*order.price;
+        // cartData.units=1;
+
+        // var cart=new ShoppingCart();
+        // cart.setDataToLocalSatorge(cartData);
+        // console.log(cart.getDataFromLocalSatorge())
+
+
+
+        // 创建一个购物车
+        var cart=new ShoppingCart();
+        // 清空
+        cart.clearCart();
+
+        // 创建一个商品
+        var product=new Product('01','30片巨补水 秋冬新款面膜',9,'01.jpg');
+        // 创建一个订单
+        var order=new Order(product,1,true);
+        // 将订单order置入购物车
+        cart.addToCart(order);
+
+
+        // 创建一个商品
+        product=new Product('02','新西兰进口白金版婴幼儿奶粉',9,'02.jpg');
+        // 创建一个订单
+        order=new Order(product,2,true);
+        // 将订单order置入购物车
+        cart.addToCart(order);
+
+
+        // 创建一个商品
+        product=new Product('03','卡耐基经典 人性的弱点',9,'03.jpg');
+        // 创建一个订单
+        order=new Order(product,3,true);
+        // 将订单order置入购物车
+        cart.addToCart(order);
+
+        console.log(cart.getSelectedQty());
+        console.log(cart.getSelectedAmount());
+
+       
+
+
+
+
+
+
+    </script>
+</body>
+</html>
